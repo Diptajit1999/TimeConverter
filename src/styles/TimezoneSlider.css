@@ -1,0 +1,24 @@
+.timezone-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timezone-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.timezone-name, .timezone-offset {
+  margin: 0 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.time-display {
+  margin-top: 10px;
+}

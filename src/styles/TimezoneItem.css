@@ -1,0 +1,29 @@
+.timezone-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .timezone-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .time-display {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .remove-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
